@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>403 Forbidden</title>
-</head>
-<body>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			table {
+				width: 100% !important;
+				border-collapse: collapse !important;
+				margin-top: 20px !important;
+			}
 
-<p>Directory access is forbidden.</p>
+			th,
+			td {
+				border: 1px solid #dddddd !important;
+				padding: 8px !important;
+				text-align: left !important;
+			}
 
-</body>
+			th {
+				background-color: #f2f2f2 !important;
+			}
+
+			tr:nth-child(even) {
+				background-color: #ffffff !important;
+			}
+
+			tr:nth-child(odd) {
+				background-color: grey !important;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<tbody>
+				<tr>
+					<th>Feature</th>
+					<th>Specification</th>
+				</tr>
+				<tr>
+					<td>Running Surface</td>
+					<td>{acf:running}</td>
+				</tr>
+				<tr>
+					<td>Motor</td>
+					<td>{acf:Motor}</td>
+				</tr>
+				<tr>
+					<td>Speed</td>
+					<td>{acf:speed}</td>
+				</tr>
+
+				<tr>
+					<td>Tilt</td>
+					<td>{acf:tilt}</td>
+				</tr>
+				<tr>
+					<td>Maximum user weight</td>
+					<td>{acf:maximum}</td>
+				</tr>
+				<tr>
+					<td>Dimension</td>
+					<td>{acf:dimensions}</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
 </html>
